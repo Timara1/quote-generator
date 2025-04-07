@@ -44,7 +44,7 @@ function App() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4">
+    <main className="min-h-screen bg-blue-300 flex flex-col items-center justify-center px-4">
       <Header />
       <div className="max-w-xl w-full">
         <QuoteCard quote={quote} author={author} />
